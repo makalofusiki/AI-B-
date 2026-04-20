@@ -4,9 +4,9 @@
 
 ## 1. 项目定位与整体结构
 
-- 后端主目录：`/home/runner/work/AI-B-/AI-B-/smart_query_source/src`
-- 前端主目录：`/home/runner/work/AI-B-/AI-B-/smart_query_source/frontend`
-- 批处理与测试：`/home/runner/work/AI-B-/AI-B-/smart_query_source/scripts`、`/home/runner/work/AI-B-/AI-B-/smart_query_source/tests`
+- 后端主目录：`smart_query_source/src`
+- 前端主目录：`smart_query_source/frontend`
+- 批处理与测试：`smart_query_source/scripts`、`smart_query_source/tests`
 
 核心运行链路：
 1. 前端调用 `/chat`（`fastapi_app.py`）。
