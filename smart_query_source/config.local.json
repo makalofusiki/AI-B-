@@ -1,0 +1,9 @@
+{
+  "provider": "moonshot",
+  "base_url": "https://api.moonshot.cn/v1",
+  "api_key": "sk-zqamvpeaqyjcrkpfkxfpnelhxwylhyjqpgwupgqltgaxuqhq",
+  "model": "kimi2.5",
+  "timeout_sec": 30,
+  "sqlite_path": "data\\financial_reports.sqlite",
+  "service_api_key": ""
+}
