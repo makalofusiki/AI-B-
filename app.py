@@ -22,7 +22,7 @@ def generate_reply(question: str) -> str:
     }
 
     for keyword, answer in knowledge.items():
-        if keyword in question or keyword in text:
+        if keyword in text:
             return answer
 
     return "已收到您的问题。当前为演示版助手，可先咨询：公司介绍、产品方向、质量管理、合作方式、联系方式。"
